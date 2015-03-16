@@ -1,18 +1,20 @@
 {
   "name": "node-jsx",
+  "private": true,
   "version": "0.12.4",
   "description": "transparently require() jsx from node",
   "main": "index.js",
-  "dependencies": {
-    "react-tools": "^0.12.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jasmine-node": "1.12.0"
   },
   "scripts": {
     "test": "jasmine-node node-jsx.spec.js"
   },
-  "repository": "petehunt/node-jsx",
+  "repository": "jakobwesthoff/node-jsx",
   "author": "Pete Hunt",
+  "contributors": [
+    "Jakob Westhoff <jakob@westhoffswelt.de> (http://westhoffswelt.de)"
+  ],
   "license": "Apache 2"
 }
